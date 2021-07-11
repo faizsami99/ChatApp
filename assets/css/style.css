@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    /* color: white; */
+}
+
+.chat_section{
+    width: 100%;
+    height: 100%;
+}
+.chat_container{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.logo{
+    background-color: rgb(204, 189, 189);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+
+.logo h3{
+    padding-left: 4px;
+}
+
+.message_Box{
+    height: 84vh;
+    overflow-y: auto;
+}
+
+.incoming{
+    background: rgb(126, 157, 214);
+    padding: 14px 8px;
+    width: 75%;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+.outgoing{
+    background: rgb(199, 175, 175);
+    padding: 14px 8px;
+    width: 75%;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+.inputArea{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
+.inputArea textarea {
+    width: 100%;
+    font-size: 25px;
+}
+
+.inputArea i{
+    font-size: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
